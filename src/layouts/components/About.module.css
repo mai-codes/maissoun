@@ -35,8 +35,7 @@
 }
 
 /**Start Type Writer Effect**/
-.csstyping h4,
-.csstyping span{
+.csstyping h4 {
   font-family: "PT Mono",monospace;
   font-size: 0.98em;
   overflow: hidden;
@@ -47,14 +46,14 @@
   .csstyping {
   white-space: nowrap;
   }    
-  .csstyping h4:nth-child(1),
-  .csstyping span:nth-child(1)  {
+  .csstyping h4:nth-child(1) {
     width: 800px; /* manually set width */
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
   .csstyping h4:nth-child(2) {
     width: 800px; /* manually set width */
     opacity: 0;
