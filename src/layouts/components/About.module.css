@@ -35,7 +35,8 @@
 }
 
 /**Start Type Writer Effect**/
-.csstyping h4{
+.csstyping h4,
+.csstyping span{
   font-family: "PT Mono",monospace;
   font-size: 0.98em;
   overflow: hidden;
@@ -46,7 +47,8 @@
   .csstyping {
   white-space: nowrap;
   }    
-  .csstyping h4:nth-child(1) {
+  .csstyping h4:nth-child(1),
+  .csstyping span:nth-child(1)  {
     width: 800px; /* manually set width */
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
@@ -226,7 +228,7 @@
 }
 
 .aboutText span {
-  color: #FF0000;
+  color: rgb(179, 44, 179);
 }
 
 .techStack h3 {

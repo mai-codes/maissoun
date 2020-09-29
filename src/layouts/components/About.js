@@ -51,7 +51,7 @@ const About = () => (
 
       <div className={styles.aboutText}>
         <div className={styles.csstyping}>
-        <h4>Hey there, I'm <h5>Maissoun! </h5>I have a B.S & M.S in Structural Eng from Drexel U. </h4>
+        <h4>Hey there, I'm <span>Maissoun! </span>I have a B.S & M.S in Structural Eng from Drexel U. </h4>
         <h4>After designing buildings for 2 years, my urge to dive into tech grew strong. </h4>
         <h4>I've decided to switch paths and focus on growing as a programmer.</h4>
         <h4>I <span id="heart">&#10084;</span> technology and creating innovative solutions to everyday problems!</h4>
