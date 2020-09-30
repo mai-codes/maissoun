@@ -1,1 +1,1 @@
-export { default as nlaureanoResume } from './NLaureano_Resume.pdf'
+export { default as maissounresume } from './Ksara_Maissoun_Resume.pdf'

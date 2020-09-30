@@ -17,7 +17,7 @@ import {
 
 import { chevronBlack } from '../images'
 
-import { nlaureanoResume } from '../../NLaureano_Resume.pdf'
+import { maissounresume } from '../../Ksara_Maissoun_Resume.pdf'
 
 let marginY = 0
 let destination = 0
