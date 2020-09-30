@@ -29,18 +29,58 @@
   font-family: "PT Mono",monospace;
 	font-size: 30px;
 	font-weight: 300;
-	margin-top: 0;
+	margin-top: 30px;
 	text-decoration: none;
   vertical-align: middle;
 }
 
+.siteTitle h2 a {
+  font-family: "PT Mono",monospace;
+	font-size: 20px;
+	font-weight: 300;
+	text-decoration: none;
+  vertical-align: middle;
+  color: rgb(179, 44, 179);
+  margin-bottom: 10px;
+}
+    
 .siteTitle a {
   text-decoration: none;
   color: #000066;
   transition: 0.5s;
   padding: 0;
   margin: 0;
+  font-size: 20px;
+  line-height: normal;
   transition: all 0.2s ease-in-out;
+}
+
+ul {
+  list-style: none;
+}
+
+.siteTitle li {
+  text-decoration: none;
+  color: #000066;
+  transition: 0.5s;
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #000066;
+  font-size: 30px;
+  font-family: "PT Mono",monospace;
+  font-weight: 300;
+  text-align: left;
+  justify-content: left;
+  display: inline-block;
+}
+
+.resume h2 {
+  font-size: 30px;
 }
 
 .siteTitle a:hover {

@@ -37,11 +37,20 @@ const Header = () => (
   <header className={styles.header}>
           <div className={styles.titleNavWrapper}>
             <div className={styles.nameContainer}>
-              <h1 className={styles.siteTitle}>
+              <ul>
+              <li className={styles.siteTitle}>
                 <a href="/" id="top">
                   MAISSOUN KSARA
                 </a>
-              </h1>
+              <h2 className={styles.resume}>
+                <a href="https://github.com/mai-codes/maissoun/raw/master/src/Ksara_Maissoun_Resume.pdf">
+                  RESUME
+                </a>
+              </h2>
+                </li>
+              </ul>
+
+
             </div>
 
             <div className={styles.desktopNav}>
