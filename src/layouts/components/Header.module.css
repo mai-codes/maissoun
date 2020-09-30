@@ -36,7 +36,7 @@
 
 .siteTitle h2 a {
   font-family: "PT Mono",monospace;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 300;
 	text-decoration: none;
   vertical-align: middle;
@@ -50,7 +50,7 @@
   transition: 0.5s;
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 30px;
   line-height: normal;
   transition: all 0.2s ease-in-out;
 }
